@@ -1,23 +1,12 @@
 {
-  "name": "nezuko-v3-backend",
+  "name": "xeon-xmd",
   "version": "1.0.0",
-  "description": "Backend proxy for Nezuko V3 Ultimate Rainbow Toolkit",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "keywords": [
-    "ai",
-    "nezuko",
-    "toolkit"
-  ],
-  "author": "Miss Alpha",
-  "license": "ISC",
+  "description": "WhatsApp Bot",
+  "main": "index.js",
   "dependencies": {
     "dotenv": "^16.4.5"
-    "axios": "^1.6.0",
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
